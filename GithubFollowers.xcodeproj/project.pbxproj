@@ -21,6 +21,7 @@
 		C50B7E6C274F434500BE192A /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E6B274F434400BE192A /* GFBodyLabel.swift */; };
 		C50B7E6E274F43FC00BE192A /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E6D274F43FC00BE192A /* GFAlertVC.swift */; };
 		C50B7E70274F495B00BE192A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E6F274F495B00BE192A /* UIViewController+Ext.swift */; };
+		C50B7E77274FDD0200BE192A /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E76274FDD0200BE192A /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C50B7E6B274F434400BE192A /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		C50B7E6D274F43FC00BE192A /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		C50B7E6F274F495B00BE192A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		C50B7E76274FDD0200BE192A /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		C50B7E72274FDA7C00BE192A /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				C50B7E76274FDD0200BE192A /* GFAlertContainerView.swift */,
 				C50B7E6D274F43FC00BE192A /* GFAlertVC.swift */,
 				C50B7E61274F200500BE192A /* GFButton.swift */,
 				C50B7E63274F22B500BE192A /* GFTextField.swift */,
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50B7E77274FDD0200BE192A /* GFAlertContainerView.swift in Sources */,
 				C50B7E64274F22B500BE192A /* GFTextField.swift in Sources */,
 				C50B7E60274DF77400BE192A /* FavoritesListVC.swift in Sources */,
 				C50B7E70274F495B00BE192A /* UIViewController+Ext.swift in Sources */,
@@ -347,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C7X77XQ2L3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GithubFollowers/Info.plist;
+				INFOPLIST_FILE = GithubFollowers/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -375,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C7X77XQ2L3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GithubFollowers/Info.plist;
+				INFOPLIST_FILE = GithubFollowers/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
