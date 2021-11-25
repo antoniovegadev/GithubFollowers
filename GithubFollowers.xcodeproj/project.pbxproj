@@ -72,23 +72,55 @@
 		C50B7E48274DF2E600BE192A /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				C50B7E75274FDB1C00BE192A /* Support */,
+				C50B7E73274FDAB200BE192A /* Extensions */,
+				C50B7E72274FDA7C00BE192A /* Custom Views */,
+				C50B7E71274FDA4700BE192A /* Screens */,
+			);
+			path = GithubFollowers;
+			sourceTree = "<group>";
+		};
+		C50B7E71274FDA4700BE192A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C50B7E5D274DF74500BE192A /* SearchVC.swift */,
+				C50B7E5F274DF77300BE192A /* FavoritesListVC.swift */,
+				C50B7E65274F3BB000BE192A /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C50B7E72274FDA7C00BE192A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				C50B7E6D274F43FC00BE192A /* GFAlertVC.swift */,
+				C50B7E61274F200500BE192A /* GFButton.swift */,
+				C50B7E63274F22B500BE192A /* GFTextField.swift */,
+				C50B7E69274F41F000BE192A /* GFTitleLabel.swift */,
+				C50B7E6B274F434400BE192A /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		C50B7E73274FDAB200BE192A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C50B7E67274F3F7700BE192A /* String+Ext.swift */,
+				C50B7E6F274F495B00BE192A /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C50B7E75274FDB1C00BE192A /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				C50B7E49274DF2E600BE192A /* AppDelegate.swift */,
 				C50B7E4B274DF2E600BE192A /* SceneDelegate.swift */,
 				C50B7E52274DF2E800BE192A /* Assets.xcassets */,
 				C50B7E54274DF2E800BE192A /* LaunchScreen.storyboard */,
 				C50B7E57274DF2E800BE192A /* Info.plist */,
-				C50B7E5D274DF74500BE192A /* SearchVC.swift */,
-				C50B7E5F274DF77300BE192A /* FavoritesListVC.swift */,
-				C50B7E61274F200500BE192A /* GFButton.swift */,
-				C50B7E63274F22B500BE192A /* GFTextField.swift */,
-				C50B7E69274F41F000BE192A /* GFTitleLabel.swift */,
-				C50B7E6B274F434400BE192A /* GFBodyLabel.swift */,
-				C50B7E65274F3BB000BE192A /* FollowerListVC.swift */,
-				C50B7E67274F3F7700BE192A /* String+Ext.swift */,
-				C50B7E6D274F43FC00BE192A /* GFAlertVC.swift */,
-				C50B7E6F274F495B00BE192A /* UIViewController+Ext.swift */,
 			);
-			path = GithubFollowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
