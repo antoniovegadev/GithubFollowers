@@ -33,7 +33,6 @@ class GFAvatarImageView: UIImageView {
         
         if let image = cache.object(forKey: cacheKey) {
             self.image = image
-            print("CACHED Image")
             return
         }
         
@@ -48,7 +47,6 @@ class GFAvatarImageView: UIImageView {
             guard let image = UIImage(data: data) else { return }
             
             self.cache.setObject(image, forKey: cacheKey)
-            print("FETCHED Image")
             
             DispatchQueue.main.async {
                 self.image = image
