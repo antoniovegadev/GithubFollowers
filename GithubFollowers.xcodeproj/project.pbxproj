@@ -30,6 +30,7 @@
 		C50B7E87275058E600BE192A /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E86275058E600BE192A /* GFAvatarImageView.swift */; };
 		C50B7E892750877800BE192A /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E882750877800BE192A /* UIHelper.swift */; };
 		C50B7E91275293D600BE192A /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E90275293D600BE192A /* GFEmptyStateView.swift */; };
+		C50B7E932752D64500BE192A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7E922752D64500BE192A /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		C50B7E86275058E600BE192A /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		C50B7E882750877800BE192A /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		C50B7E90275293D600BE192A /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		C50B7E922752D64500BE192A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				C50B7E5D274DF74500BE192A /* SearchVC.swift */,
 				C50B7E5F274DF77300BE192A /* FavoritesListVC.swift */,
 				C50B7E65274F3BB000BE192A /* FollowerListVC.swift */,
+				C50B7E922752D64500BE192A /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				C50B7E68274F3F7700BE192A /* String+Ext.swift in Sources */,
 				C50B7E4C274DF2E600BE192A /* SceneDelegate.swift in Sources */,
 				C50B7E6C274F434500BE192A /* GFBodyLabel.swift in Sources */,
+				C50B7E932752D64500BE192A /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
