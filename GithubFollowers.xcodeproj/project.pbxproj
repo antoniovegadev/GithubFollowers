@@ -39,6 +39,7 @@
 		C50B7EA127531E7200BE192A /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7EA027531E7200BE192A /* GFRepoItemVC.swift */; };
 		C50B7EA32753208E00BE192A /* GFFollowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7EA22753208E00BE192A /* GFFollowerVC.swift */; };
 		C50B7EA6275329F700BE192A /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7EA5275329F700BE192A /* Date+Ext.swift */; };
+		C50B7EA8275422E100BE192A /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7EA7275422E100BE192A /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		C50B7EA027531E7200BE192A /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		C50B7EA22753208E00BE192A /* GFFollowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerVC.swift; sourceTree = "<group>"; };
 		C50B7EA5275329F700BE192A /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		C50B7EA7275422E100BE192A /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				C50B7E7E27503F8E00BE192A /* NetworkManager.swift */,
+				C50B7EA7275422E100BE192A /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				C50B7EA6275329F700BE192A /* Date+Ext.swift in Sources */,
 				C50B7E9F27531BB800BE192A /* GFItemInfoVC.swift in Sources */,
 				C50B7E7F27503F8E00BE192A /* NetworkManager.swift in Sources */,
+				C50B7EA8275422E100BE192A /* PersistenceManager.swift in Sources */,
 				C50B7E70274F495B00BE192A /* UIViewController+Ext.swift in Sources */,
 				C50B7EA127531E7200BE192A /* GFRepoItemVC.swift in Sources */,
 				C50B7E62274F200500BE192A /* GFButton.swift in Sources */,
