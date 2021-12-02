@@ -42,6 +42,7 @@
 		C50B7EAA27542CB800BE192A /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7EA927542CB800BE192A /* FavoriteCell.swift */; };
 		C50B7EF92754804600BE192A /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B7EF82754804600BE192A /* GFTabBarController.swift */; };
 		C54F38D72755998700DB48A7 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F38D62755998700DB48A7 /* GFDataLoadingVC.swift */; };
+		C5CEED3127575312007E8CA4 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CEED3027575312007E8CA4 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		C50B7EA927542CB800BE192A /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		C50B7EF82754804600BE192A /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		C54F38D62755998700DB48A7 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		C5CEED3027575312007E8CA4 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				C50B7E6F274F495B00BE192A /* UIViewController+Ext.swift */,
 				C50B7EA5275329F700BE192A /* Date+Ext.swift */,
+				C5CEED3027575312007E8CA4 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CEED3127575312007E8CA4 /* UIView+Ext.swift in Sources */,
 				C50B7E992752FB4F00BE192A /* Constants.swift in Sources */,
 				C50B7E77274FDD0200BE192A /* GFAlertContainerView.swift in Sources */,
 				C50B7E822750493200BE192A /* GFError.swift in Sources */,
