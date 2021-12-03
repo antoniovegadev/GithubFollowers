@@ -12,7 +12,6 @@ protocol UserInfoVCDelegate: AnyObject {
 }
 
 class UserInfoVC: GFDataLoadingVC {
-    
     let headerView = UIView()
     let itemViewOne = UIView()
     let itemViewTwo = UIView()

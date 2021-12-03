@@ -8,7 +8,6 @@
 import UIKit
 
 class GFItemInfoVC: UIViewController {
-    
     let stackView = UIStackView()
     let itemInfoViewOne = GFInfoItemView()
     let itemInfoViewTwo = GFInfoItemView()
